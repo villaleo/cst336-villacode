@@ -1,4 +1,3 @@
-const COURSES = ["C++", "Java", "Python", "Rust", "JavaScript"];
 let enrollments = [];
 
 let cartButton = document.getElementById("cartButton");
@@ -13,7 +12,7 @@ cartButton.addEventListener("click", () => {
         cartStatusLabel.style = "display: inline;";
     } else {
         cartStatusLabel.style = "display: none;";
-        window.location.href = "html/cart.html";
+        window.location.href = "html/cart.html?courses=" + enrollments.join(",");
     }
 });
 

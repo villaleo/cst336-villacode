@@ -24,17 +24,17 @@ body {
     text-decoration: none;
 }
 
-.card {
+.cardThumbnail {
     margin: 35px 35px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} .card:hover {
+} .cardThumbnail:hover {
     box-shadow: 0 30px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 30px 0 rgba(0, 0, 0, 0.19);
 }
-.nav li a:hover, .card:hover .card-body {
+.nav li a:hover, .cardThumbnail:hover .card-body {
     color: #ea698b;
-} .card:hover .card-body h5 {
+} .cardThumbnail:hover .card-body h5 {
     font-style: italic;
 }
 
@@ -62,6 +62,10 @@ body {
     margin-top: 20px;
 }
 
+.formEntry {
+    margin-bottom: 25px;
+}
+
 #cartLabel, #cartLabel:hover {
     cursor: default;
 
@@ -82,4 +86,22 @@ body {
 #contactMe a:link, #contactMe a:visited, #contactMe a a:link, #contactMe a a:visited {
     color: #fff;
     text-decoration: none;
+}
+
+#formCard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding: 20px 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#formInputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
