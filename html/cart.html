@@ -31,12 +31,7 @@
 		<h4>Confirm purchase</h4>
 		<p>
 			The following items were selected for purchase:
-			<table>
-				<!-- <tr>
-					<th>Item A</th>
-					<th>Price</th>
-				</tr> -->
-			</table>
+			<table id="selections"></table>
 			<hr>
 			<table>
 				<tr>
@@ -58,21 +53,21 @@
 		<form class="row" id="formInputs">
 			<div class="col-md-4 formEntry">
 			  	<label for="firstName" class="form-label">First name</label>
-			  	<input type="text" class="form-control" id="firstName" value="" required>
+			  	<input type="text" class="form-control" id="firstName" value="">
 			</div>
 			<div class="col-md-4 formEntry">
 			  	<label for="lastName" class="form-label">Last name</label>
-			  	<input type="text" class="form-control" id="lastName" value="" required>
+			  	<input type="text" class="form-control" id="lastName" value="">
 			</div>
 			<div class="col-md-5 formEntry">
 				<label for="email" class="form-label">Email</label>
-				<input type="email" class="form-control" id="email" required>
+				<input type="email" class="form-control" id="email">
 			</div>
 			<div class="col-md-3 formEntry">
 			  	<label for="studentID" class="form-label">Student ID</label>
-			  	<input type="text" class="form-control" id="studentID" required>
+			  	<input type="text" class="form-control" id="studentID">
 			</div>
-			<button class="btn btn-success formEntry" type="submit" id="confirmPayment">Confirm</button>
+			<button class="btn btn-success formEntry" id="confirmPurchase">Confirm</button>
 			<button class="btn btn-outline-warning" id="cancelPurchase">Cancel</button>
 		  </form>
     </div>
