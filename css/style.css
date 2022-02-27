@@ -19,11 +19,6 @@ body {
     background-color: #571089;
 }
 
-#contactMe a:link, #contactMe a:visited, #contactMe a a:link, #contactMe a a:visited {
-    color: #fff;
-    text-decoration: none;
-}
-
 .nav-item a:link, .nav-item a:visited {
     color: #fff;
     text-decoration: none;
@@ -36,7 +31,8 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } .card:hover {
     box-shadow: 0 30px 25px 0 rgba(0, 0, 0, 0.2), 0 25px 30px 0 rgba(0, 0, 0, 0.19);
-} .nav li a:hover, .card:hover .card-body {
+}
+.nav li a:hover, .card:hover .card-body {
     color: #ea698b;
 } .card:hover .card-body h5 {
     font-style: italic;
@@ -61,6 +57,10 @@ body {
     align-items: center;
 }
 
+#goto-cart {
+    margin-top: 35px;
+}
+
 #schoolLogo {
     border-radius: 50%;
 
@@ -68,4 +68,9 @@ body {
     height: 110px;
 
     padding-top: 5px;
+}
+
+#contactMe a:link, #contactMe a:visited, #contactMe a a:link, #contactMe a a:visited {
+    color: #fff;
+    text-decoration: none;
 }
