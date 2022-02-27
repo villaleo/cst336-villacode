@@ -57,8 +57,17 @@ body {
     align-items: center;
 }
 
-#goto-cart {
-    margin-top: 35px;
+.cartStatus {
+    float: left;
+    margin-top: 20px;
+}
+
+#cartLabel, #cartLabel:hover {
+    cursor: default;
+
+    color: #fff;
+    font-size: 17px;
+    display: none;
 }
 
 #schoolLogo {

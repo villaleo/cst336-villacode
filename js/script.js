@@ -1,7 +1,7 @@
 const COURSES = ["C++", "Java", "Python", "Rust", "JavaScript"];
 let enrollments = [];
 
-let cartButton = document.getElementById("goto-cart");
+let cartButton = document.getElementById("cartButton");
 cartButton.addEventListener("click", () => {
     console.log("Hello");
 });
@@ -19,7 +19,13 @@ function enroll() {
         this.classList.add("btn-outline-warning");
         this.innerHTML = "Enroll";
     }
+
     console.log(`Courses: [${enrollments}]`);
+}
+
+function submitCourses() {
+    let buttonStatusLabel = document.getElementById("cartLabel");
+    buttonStatusLabel.style = enrollments.length == 0? "display: inline;" : "display: none;";
 }
 
 let enrollmentSelector = document.querySelectorAll(".enrollment");
