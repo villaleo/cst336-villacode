@@ -71,6 +71,14 @@ body {
     align-items: center;
 }
 
+.active {
+    background-color: #822FAF;
+}
+
+.nav-item a {
+    border-radius: 10px;
+}
+
 #profileImage {
     display: block;
     margin-left: 25px;
