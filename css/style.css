@@ -66,6 +66,23 @@ body {
     margin-bottom: 25px;
 }
 
+.hBox {
+    display: flex;
+    align-items: center;
+}
+
+#profileImage {
+    display: block;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    border-radius: 10%;
+
+    width: 170px;
+    height: 150px;
+}
+
 #cartLabel, #cartLabel:hover {
     cursor: default;
 
